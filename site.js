@@ -64,37 +64,43 @@ const papers = [
     title: "从都城审美到乡村记忆：南宋畿辅视域下宋韵丝绸文化的地方化表达",
     status: "拟写 / 总论型论文",
     focus: "建立“临安都城-浙北畿辅-蚕桑乡村-当代转化”的解释框架。",
-    materials: "宋代文献、地方志、丝绸史、区域文化研究、马鸣村田野材料。"
+    materials: "宋代文献、地方志、丝绸史、区域文化研究、马鸣村田野材料。",
+    href: "article-songyun-localization.html"
   },
   {
     title: "浙北蚕桑乡村宋韵丝绸文化的视觉符号体系与影像转译研究",
     status: "优先推进 / 中期成果",
     focus: "把桑、蚕、丝、织、寝居、村落、水网、身体劳动等材料转化为艺术学对象。",
-    materials: "田野照片、短视频、老物件、蚕丝被制作过程、展陈和品牌影像样本。"
+    materials: "田野照片、短视频、老物件、蚕丝被制作过程、展陈和品牌影像样本。",
+    href: "article-visual-symbols.html"
   },
   {
     title: "从“泛古风”到文化真实性：AIGC生成宋韵丝绸影像的误读机制与评价标准",
     status: "重点打造 / 前沿论文",
     focus: "分析AIGC图像中的泛古风化、历史错置、劳动消失、产品空心化与跨文化误读。",
-    materials: "提示词实验、AI图像样本、真实田野影像对照、专家和受众评价。"
+    materials: "提示词实验、AI图像样本、真实田野影像对照、专家和受众评价。",
+    href: "article-aigc-authenticity.html"
   },
   {
     title: "从功能寝具到文化产品：蚕丝被品牌叙事的宋韵丝绸文化转化机制",
     status: "拟写 / 应用转化",
     focus: "研究蚕丝被如何从材质功能卖点转向地方文化、工艺信任和生活美学叙事。",
-    materials: "企业访谈、产品包装、直播短视频、电商页面、文旅体验路线。"
+    materials: "企业访谈、产品包装、直播短视频、电商页面、文旅体验路线。",
+    href: "article-silk-quilt-brand.html"
   },
   {
     title: "影像民族志视域下蚕桑乡村文化记忆的档案建构研究：以桐乡马鸣村为例",
     status: "材料积累 / 个案论文",
     focus: "讨论影像档案如何保存村民口述、身体技艺、物件记忆和村落空间。",
-    materials: "口述史、村落空间记录、老照片、蚕具图像、声音和影像资料。"
+    materials: "口述史、村落空间记录、老照片、蚕具图像、声音和影像资料。",
+    href: "article-visual-ethnography-archive.html"
   },
   {
     title: "仪式、身体与水乡空间：蚕花水会及高杆船技的影像叙事研究",
     status: "专题储备",
     focus: "从仪式叙事、身体表演和水乡空间三方面分析节庆影像的传播价值。",
-    materials: "蚕花水会影像、非遗资料、短视频样本、现场访谈。"
+    materials: "蚕花水会影像、非遗资料、短视频样本、现场访谈。",
+    href: "article-canhua-water-ritual.html"
   }
 ];
 
@@ -1664,15 +1670,16 @@ function renderPapers() {
   const node = document.querySelector("[data-papers]");
   if (!node) return;
   node.innerHTML = papers.map((p, index) => `
-    <article class="item media-item">
+    <a class="item media-item link-item" href="${p.href}">
       <img class="media-thumb" src="${imageAt(paperImages, index)}" alt="${p.title}" loading="lazy">
       <div class="media-body">
         <div class="meta-row"><span class="tag gold">${p.status}</span></div>
         <strong>${p.title}</strong>
         <span>${p.focus}</span>
         <span><b>材料基础：</b>${p.materials}</span>
+        <span class="text-link">阅读全文</span>
       </div>
-    </article>`).join("");
+    </a>`).join("");
 }
 
 function renderLiteratureNeeds() {
