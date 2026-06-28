@@ -27,7 +27,7 @@ const navItems = [
     href: "literature.html",
     label: "文献综述",
     children: [
-      ["literature-table.html", "80篇以上文献表"],
+      ["literature-table.html", "94篇文献表"],
       ["review-songyun-aesthetics.html", "宋韵美学"],
       ["review-local-history.html", "地方文脉"],
       ["review-sericulture-heritage.html", "桑蚕丝织非遗"],
@@ -193,8 +193,8 @@ const literature = [
   ["非遗与地方记忆", "蚕花水会、高杆船技、村落节庆、口述史", "支撑马鸣村及周边文化资源的活态研究。", 10],
   ["影像民族志", "纪录影像、乡村影像、身体技艺、影像档案", "为田野影像采集、叙事分析和档案建构提供方法。", 10],
   ["数字文化与AIGC", "AI图像生成、传统文化数字化、文化真实性、误读风险", "支撑AIGC审美边界和评价标准研究。", 10],
-  ["文旅传播", "乡村文旅、体验设计、地方品牌、公共美育", "支撑“参观-体验-拍摄-消费-分享”的传播路径。", 10],
-  ["产业转化与国际传播", "文化产品、品牌叙事、跨境电商视觉、东方生活美学", "支撑蚕丝被品牌叙事和出海传播研究。", 10]
+  ["乡村文旅", "乡村文旅、体验设计、地方品牌、公共美育", "支撑“参观-体验-拍摄-消费-分享”的研究影响路径。", 10],
+  ["乡村特色产品与国际传播", "文化产品、品牌叙事、跨境电商视觉、东方生活美学", "支撑蚕丝被品牌叙事、乡村特色产品和出海传播研究。", 10]
 ];
 
 const resources = [
@@ -203,7 +203,7 @@ const resources = [
   ["地方记忆", "村民口述、老照片、家族记忆、旧工具、奖状证书、地方传说", "口述史、影像档案、展陈文本"],
   ["节庆民俗", "蚕花水会、高杆船技、祈丰收仪式、集体观看和地方表演", "仪式叙事、短视频样本、非遗传播研究"],
   ["蚕丝被产业", "企业展厅、包装、直播间、产品详情页、品牌短片、客户评价", "产业传播样本库、品牌叙事模型"],
-  ["文旅体验", "参观、制作体验、民宿寝居场景、伴手礼、研学活动、游客分享", "文旅传播路径、公共美育课程"]
+  ["文旅体验", "参观、制作体验、民宿寝居场景、伴手礼、研学活动、游客分享", "乡村文旅路径、公共美育课程"]
 ];
 
 const interviewGroups = [
@@ -667,7 +667,7 @@ const sourceItems = [
     "org": "新华社",
     "url": "https://h.xinhuaxmt.com/vh512/share/11958826",
     "summary": "报道介绍双庙渚蚕花水会在桐乡和嘉兴具有知名度，旧时蚕农于清明时节祈祷桑蚕丰收。",
-    "use": "支撑节庆民俗、仪式影像和文旅传播研究。"
+    "use": "支撑节庆民俗、仪式影像和乡村文旅研究。"
   },
   {
     "title": "桐乡高杆船技传承人屠松根亮相央视",
@@ -691,7 +691,7 @@ const sourceItems = [
     "org": "潮新闻",
     "url": "https://tidenews.com.cn/news.html?id=3336268",
     "summary": "报道提到洲泉作为“中国蚕丝被名镇”的地方产业背景，并涉及马鸣村艺术乡建线索。",
-    "use": "支撑美育文旅、艺术乡建和产业转化板块的外部语境。"
+    "use": "支撑美育文旅、艺术乡建和研究影响板块的外部语境。"
   },
   {
     "title": "宋韵文化的概念界定与认识维度",
@@ -707,7 +707,7 @@ const sourceItems = [
     "org": "SciEngine开放PDF",
     "url": "https://www.sciengine.com/doi/pdfView/389D6FEE72AE458F9C9C10833F272467",
     "summary": "论文从浙江丝绸文化出发讨论丝绸文化与旅游融合，涉及桑蚕丝织技艺园、企业展示中心和丝绸市场等文旅形态。",
-    "use": "支撑文旅传播路径和产业展示中心研究。"
+    "use": "支撑乡村文旅路径和产业展示中心研究。"
   },
   {
     "title": "影像民族志：人类学知识生产过程与实践",
@@ -888,13 +888,13 @@ const literatureReferences = [
   { id: "ref-aigc-01", group: "数字文化与AIGC", code: "R15", title: "Tracing the bias loop: AI, cultural heritage and bias-mitigating in practice", source: "AI & Society / Springer Nature", note: "用于讨论AI生成文化图像中的偏差识别与修正。", url: "https://link.springer.com/article/10.1007/s00146-025-02349-z", jump: "topic-aigc" },
   { id: "ref-aigc-02", group: "数字文化与AIGC", code: "R16", title: "A review of the development and application of generative technology in digital museums", source: "npj Heritage Science / Nature", note: "适合支撑AIGC、数字博物馆和文化传播的关系。", url: "https://www.nature.com/articles/s40494-025-02164-1", jump: "topic-aigc" },
   { id: "ref-aigc-03", group: "数字文化与AIGC", code: "R27", title: "AIGC视域下的非遗视觉重构", source: "FCI Publication", note: "用于补充非遗视觉重构、文化基因提取和视觉语义转译。", url: "https://www.fcipub.org/articleDetail/3778?periodicalId=7", jump: "topic-aigc" },
-  { id: "ref-local-04", group: "文旅传播与产业转化", code: "R17", title: "浙江桐乡举办“蚕花水会” 再现非遗“高杆船技”", source: "新华社", note: "同时可作为地方节庆、村落记忆和传播案例的补充来源。", url: "https://h.xinhuaxmt.com/vh512/share/11958826", jump: "topic-tourism" },
-  { id: "ref-tourism-01", group: "文旅传播与产业转化", code: "R18", title: "中国传统村落丨浙江桐乡洲泉镇马鸣村", source: "央广网", note: "用于传统村落、文旅路线和空间叙事的基础来源。", url: "https://china.cnr.cn/gdgg/20230602/t20230602_526272930.shtml", jump: "topic-tourism" },
-  { id: "ref-tourism-02", group: "文旅传播与产业转化", code: "R19", title: "浙江桐乡桑蚕丝织技艺系统保护与发展规划", source: "公开规划PDF", note: "用于文旅空间、产业空间和桑蚕丝织展示的策划依据。", url: "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3159/site/attach/0/f9d0254c63ab4363921ce477e994a780.pdf", jump: "topic-tourism" },
-  { id: "ref-tourism-03", group: "文旅传播与产业转化", code: "R28", title: "浙江丝绸文化与旅游融合发展创新路径探索", source: "SciEngine开放PDF", note: "用于补充丝绸文化与旅游融合、桑蚕丝织技艺园和展示中心研究。", url: "https://www.sciengine.com/doi/pdfView/389D6FEE72AE458F9C9C10833F272467", jump: "topic-tourism" },
-  { id: "ref-tourism-04", group: "文旅传播与产业转化", code: "R29", title: "桐乡洲泉持续擦亮“中国蚕丝被名镇”金名片", source: "新浪财经转载/地方经济新闻", note: "用于补充洲泉蚕丝被产业升级、品牌化和区域产业传播。", url: "https://finance.sina.com.cn/jjxw/2024-12-29/doc-inecaqyf2593255.shtml", jump: "topic-tourism" },
-  { id: "ref-tourism-05", group: "文旅传播与产业转化", code: "R30", title: "过上像城市人一样的生活 从夜明村的巨变看获得感", source: "浙江在线", note: "用于补充洲泉蚕丝被家庭作坊、手工剥茧传统和产业治理的区域参照。", url: "https://cs.zjol.com.cn/zjbd/jx16506/201809/t20180907_8211820.shtml", jump: "topic-tourism" },
-  { id: "ref-tourism-06", group: "文旅传播与产业转化", code: "R31", title: "蒋文龙主编/《乡村寻根》桐乡洲泉五村：水乡复活再现“江南好”", source: "浙江大学品牌传播研究中心", note: "用于补充洲泉五村、水乡精品线、桑蚕丝织技艺展示和区域品牌传播。", url: "https://www.brand.zju.edu.cn/2024/1121/c57339a2990315/page.htm", jump: "topic-tourism" },
+  { id: "ref-local-04", group: "乡村文旅、乡村特色产品与研究影响", code: "R17", title: "浙江桐乡举办“蚕花水会” 再现非遗“高杆船技”", source: "新华社", note: "同时可作为地方节庆、村落记忆和传播案例的补充来源。", url: "https://h.xinhuaxmt.com/vh512/share/11958826", jump: "topic-tourism" },
+  { id: "ref-tourism-01", group: "乡村文旅、乡村特色产品与研究影响", code: "R18", title: "中国传统村落丨浙江桐乡洲泉镇马鸣村", source: "央广网", note: "用于传统村落、文旅路线和空间叙事的基础来源。", url: "https://china.cnr.cn/gdgg/20230602/t20230602_526272930.shtml", jump: "topic-tourism" },
+  { id: "ref-tourism-02", group: "乡村文旅、乡村特色产品与研究影响", code: "R19", title: "浙江桐乡桑蚕丝织技艺系统保护与发展规划", source: "公开规划PDF", note: "用于文旅空间、产业空间和桑蚕丝织展示的策划依据。", url: "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3159/site/attach/0/f9d0254c63ab4363921ce477e994a780.pdf", jump: "topic-tourism" },
+  { id: "ref-tourism-03", group: "乡村文旅、乡村特色产品与研究影响", code: "R28", title: "浙江丝绸文化与旅游融合发展创新路径探索", source: "SciEngine开放PDF", note: "用于补充丝绸文化与旅游融合、桑蚕丝织技艺园和展示中心研究。", url: "https://www.sciengine.com/doi/pdfView/389D6FEE72AE458F9C9C10833F272467", jump: "topic-tourism" },
+  { id: "ref-tourism-04", group: "乡村文旅、乡村特色产品与研究影响", code: "R29", title: "桐乡洲泉持续擦亮“中国蚕丝被名镇”金名片", source: "新浪财经转载/地方经济新闻", note: "用于补充洲泉蚕丝被产业升级、品牌化和区域产业传播。", url: "https://finance.sina.com.cn/jjxw/2024-12-29/doc-inecaqyf2593255.shtml", jump: "topic-tourism" },
+  { id: "ref-tourism-05", group: "乡村文旅、乡村特色产品与研究影响", code: "R30", title: "过上像城市人一样的生活 从夜明村的巨变看获得感", source: "浙江在线", note: "用于补充洲泉蚕丝被家庭作坊、手工剥茧传统和产业治理的区域参照。", url: "https://cs.zjol.com.cn/zjbd/jx16506/201809/t20180907_8211820.shtml", jump: "topic-tourism" },
+  { id: "ref-tourism-06", group: "乡村文旅、乡村特色产品与研究影响", code: "R31", title: "蒋文龙主编/《乡村寻根》桐乡洲泉五村：水乡复活再现“江南好”", source: "浙江大学品牌传播研究中心", note: "用于补充洲泉五村、水乡精品线、桑蚕丝织技艺展示和区域品牌传播。", url: "https://www.brand.zju.edu.cn/2024/1121/c57339a2990315/page.htm", jump: "topic-tourism" },
   { id: "ref-songyun-05", group: "新增学术论文", code: "R32", title: "“宋韵文化”的构成与核心", source: "沈松勤，《浙江社会科学》2023年第1期", note: "补强宋韵文化的核心精神、经世取向和文化结构，不再只停留在审美风格。", url: "https://rwxy.hznu.edu.cn/c/2023-01-16/2799750.shtml", jump: "topic-songyun" },
   { id: "ref-songyun-06", group: "新增学术论文", code: "R33", title: "苏轼：宋韵文化的样本——以浙江为中心视点的考察", source: "肖瑞峰，《浙江社会科学》2023年第3期", note: "补强宋韵文化与浙江区域经验之间的关系。", url: "https://zjsh.cbpt.cnki.net/portal/journal/portal/client/paper/77ae8be401a613077b039fa86ca7dfa1", jump: "topic-songyun" },
   { id: "ref-songyun-07", group: "新增学术论文", code: "R34", title: "杭州方言是宋韵文化的主要载体和历史坐标", source: "徐越，《浙江社会科学》2022年第9期", note: "补强宋韵文化的地方载体、城市记忆和区域语言线索。", url: "https://zjsh.cbpt.cnki.net/portal/journal/portal/client/paper/75ff36c424eed39bb9cfebdecc7b839b", jump: "topic-city" },
@@ -1285,7 +1285,7 @@ const literatureTable = [
     "待补作者",
     "待补",
     "学术论文",
-    "支撑蚕丝被工艺和产业转化关系",
+    "支撑蚕丝被工艺和乡村特色产品关系",
     "待检索"
   ],
   [
@@ -1620,7 +1620,7 @@ const literatureTable = [
   ],
   [
     71,
-    "文旅与产业转化",
+    "乡村文旅与乡村特色产品",
     "浙江丝绸文化与旅游融合发展创新路径探索",
     "待核验作者",
     "待补",
@@ -1630,7 +1630,7 @@ const literatureTable = [
   ],
   [
     72,
-    "文旅与产业转化",
+    "乡村文旅与乡村特色产品",
     "丝绸之路旅游研究文献综述",
     "待补作者",
     "待补",
@@ -1640,7 +1640,7 @@ const literatureTable = [
   ],
   [
     73,
-    "文旅与产业转化",
+    "乡村文旅与乡村特色产品",
     "杭州文旅融合创新路径探究——基于资源与市场的双重视角",
     "吾思怡",
     "2025",
@@ -1650,17 +1650,17 @@ const literatureTable = [
   ],
   [
     74,
-    "文旅与产业转化",
+    "乡村文旅与乡村特色产品",
     "乡村文旅融合与地方品牌塑造研究",
     "待补作者",
     "待补",
     "学术论文",
-    "支撑马鸣村文旅传播和地方品牌建构",
+    "支撑马鸣村乡村文旅和地方品牌建构",
     "待检索"
   ],
   [
     75,
-    "文旅与产业转化",
+    "乡村文旅与乡村特色产品",
     "文化产品叙事与消费认同研究",
     "待补作者",
     "待补",
@@ -1670,7 +1670,7 @@ const literatureTable = [
   ],
   [
     76,
-    "文旅与产业转化",
+    "乡村文旅与乡村特色产品",
     "农文旅融合背景下非遗资源活化研究",
     "待补作者",
     "待补",
@@ -1680,7 +1680,7 @@ const literatureTable = [
   ],
   [
     77,
-    "文旅与产业转化",
+    "乡村文旅与乡村特色产品",
     "跨境电商视觉传播与中国品牌出海研究",
     "待补作者",
     "待补",
@@ -1690,7 +1690,7 @@ const literatureTable = [
   ],
   [
     78,
-    "文旅与产业转化",
+    "乡村文旅与乡村特色产品",
     "东方生活美学与当代品牌传播研究",
     "待补作者",
     "待补",
@@ -1700,7 +1700,7 @@ const literatureTable = [
   ],
   [
     79,
-    "文旅与产业转化",
+    "乡村文旅与乡村特色产品",
     "公共美育视域下地方传统文化转化研究",
     "待补作者",
     "待补",
@@ -1710,7 +1710,7 @@ const literatureTable = [
   ],
   [
     80,
-    "文旅与产业转化",
+    "乡村文旅与乡村特色产品",
     "文化特派员机制下乡村文化资源转化研究",
     "待补作者",
     "待补",
@@ -1810,7 +1810,7 @@ const literatureTable = [
   ],
   [
     90,
-    "文旅与产业转化",
+    "乡村文旅与乡村特色产品",
     "浙江丝绸文化与旅游融合发展创新路径探索",
     "张洁、梁大刚、林声伟",
     "2021",
@@ -1820,7 +1820,7 @@ const literatureTable = [
   ],
   [
     91,
-    "文旅与产业转化",
+    "乡村文旅与乡村特色产品",
     "推进蚕丝被生产促进海宁蚕桑稳定",
     "待核验作者",
     "2021",
