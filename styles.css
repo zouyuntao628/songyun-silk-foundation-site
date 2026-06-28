@@ -260,6 +260,15 @@ p { margin: 0; color: var(--muted); line-height: 1.75; }
   background: linear-gradient(145deg, #eaf1ea, #f7ecd1);
   overflow: hidden;
 }
+.profile-photo img {
+  width: min(100%, 420px);
+  height: 100%;
+  min-height: 360px;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+  border-radius: 6px;
+}
 .profile-mark {
   width: min(74%, 320px);
   aspect-ratio: 1;
