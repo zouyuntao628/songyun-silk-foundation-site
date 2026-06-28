@@ -130,7 +130,7 @@ const literatureNeeds = [
   ["影像民族志与视觉人类学论文", "为田野影像、口述档案、空间记录、身体技艺和物件图像分析提供方法论。", "影像民族志、视觉符号与传播方法", "6-8篇", "中高", "已有方法入口，需补中文研究"],
   ["非遗影像传播与短视频传播论文", "解释蚕花水会、高杆船技和桑蚕丝织技艺在纪录影像、短视频和展陈影像中的叙事机制。", "节庆民俗、身体技艺与共同体记忆", "5-6篇", "中高", "待补非遗传播案例论文"],
   ["AIGC / 数字文化遗产 / 文化真实性论文", "支撑AI生成传统文化图像时的偏差识别、真实性评价、提示词规范和误读类型分析。", "AIGC、数字文化与传统文化真实性", "6-8篇", "高", "已有英文前沿来源，需补中文论文"],
-  ["乡村文旅、地方品牌与研究影响论文", "说明地方文化如何进入体验设计、品牌叙事、公共美育和乡村文旅传播链条。", "乡村文旅、乡村特色产品与研究影响", "6-8篇", "中", "已有资料线索，需补学术论文"],
+  ["乡村文旅、地方品牌与研究影响论文", "说明地方文化如何进入体验设计、品牌叙事、公共美育和研究影响链条。", "乡村文旅、乡村特色产品与研究影响", "6-8篇", "中", "已有资料线索，需补学术论文"],
   ["蚕丝被产业、寝居生活美学和品牌叙事论文", "把蚕丝被从功能寝具推进为材料信任、工艺信任、地方信任和宋韵生活美学的乡村特色产品。", "乡村文旅、乡村特色产品与研究影响", "4-6篇", "中高", "需重点补产业与品牌研究"],
   ["跨文化传播与东方生活美学论文", "为丝绸文化、蚕丝被和宋韵生活美学的国际传播提供表达边界和视觉转译依据。", "乡村文旅、乡村特色产品与研究影响", "3-5篇", "中", "后续扩展采集"]
 ];
@@ -202,7 +202,7 @@ const resources = [
   ["桑蚕生产", "采桑、喂蚕、剥茧、拉丝、铺被、缝制、包装等生产环节", "劳动影像、身体符号、产品工艺叙事"],
   ["地方记忆", "村民口述、老照片、家族记忆、旧工具、奖状证书、地方传说", "口述史、影像档案、展陈文本"],
   ["节庆民俗", "蚕花水会、高杆船技、祈丰收仪式、集体观看和地方表演", "仪式叙事、短视频样本、非遗传播研究"],
-  ["蚕丝被产业", "企业展厅、包装、直播间、产品详情页、品牌短片、客户评价", "产业传播样本库、品牌叙事模型"],
+  ["蚕丝被产业", "企业展厅、包装、直播间、产品详情页、品牌短片、客户评价", "产品传播样本库、品牌叙事模型"],
   ["文旅体验", "参观、制作体验、民宿寝居场景、伴手礼、研学活动、游客分享", "乡村文旅路径、公共美育课程"]
 ];
 
@@ -439,7 +439,7 @@ const publicPhotos = [
     title: "蚕丝被作坊场景",
     source: "公开网页图片：洲泉蚕丝被手工制作相关报道",
     url: "https://house.leju.com/",
-    note: "适合观察作坊空间、手工劳动和产业传播图像。"
+    note: "适合观察作坊空间、手工劳动和产品传播图像。"
   },
   {
     image: "assets/ifeng-silk-quilt-cover.png",
@@ -480,7 +480,7 @@ const publicPhotos = [
 
 const projectModules = [
   ["历史文脉", "梳理南宋临安都城文化、两浙区域和南宋畿辅地区桑蚕丝织村落之间的历史关联，建立“都城-畿辅-乡村”的解释框架。"],
-  ["田野档案", "采集马鸣村及周边桑蚕丝织技艺的口述史、空间影像、物件图像、节庆影像和蚕丝被产业传播材料。"],
+  ["田野档案", "采集马鸣村及周边桑蚕丝织技艺的口述史、空间影像、物件图像、节庆影像和蚕丝被产品传播材料。"],
   ["视觉符号", "提取桑、蚕、丝、织、寝居、村落、水网、身体劳动等视觉符号，形成桑蚕丝织技艺与宋韵文脉视觉符号体系。"],
   ["影像叙事", "分析纪录影像、短视频、展陈影像、品牌影像和AIGC图像如何组织地方文化记忆。"],
   ["乡村文旅", "围绕参观、体验、拍摄、消费、分享和公共美育构建马鸣村桑蚕丝织技艺传播路径。"],
@@ -583,7 +583,7 @@ const infoGroupImages = {
   "节庆民俗": "assets/canhua-2025-dragonboat.jpg",
   "文化特派员": "assets/cuz-maming-field-2.png",
   "美育文旅": "assets/maming-cinema-museum.jpeg",
-  "产业传播": "assets/ifeng-silk-quilt-detail.jpg",
+  "乡村特色产品": "assets/ifeng-silk-quilt-detail.jpg",
   "学术线索": "assets/analysis-symbol.svg"
 };
 
@@ -892,7 +892,7 @@ const literatureReferences = [
   { id: "ref-tourism-01", group: "乡村文旅、乡村特色产品与研究影响", code: "R18", title: "中国传统村落丨浙江桐乡洲泉镇马鸣村", source: "央广网", note: "用于传统村落、文旅路线和空间叙事的基础来源。", url: "https://china.cnr.cn/gdgg/20230602/t20230602_526272930.shtml", jump: "topic-tourism" },
   { id: "ref-tourism-02", group: "乡村文旅、乡村特色产品与研究影响", code: "R19", title: "浙江桐乡桑蚕丝织技艺系统保护与发展规划", source: "公开规划PDF", note: "用于文旅空间、产业空间和桑蚕丝织展示的策划依据。", url: "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3159/site/attach/0/f9d0254c63ab4363921ce477e994a780.pdf", jump: "topic-tourism" },
   { id: "ref-tourism-03", group: "乡村文旅、乡村特色产品与研究影响", code: "R28", title: "浙江丝绸文化与旅游融合发展创新路径探索", source: "SciEngine开放PDF", note: "用于补充丝绸文化与旅游融合、桑蚕丝织技艺园和展示中心研究。", url: "https://www.sciengine.com/doi/pdfView/389D6FEE72AE458F9C9C10833F272467", jump: "topic-tourism" },
-  { id: "ref-tourism-04", group: "乡村文旅、乡村特色产品与研究影响", code: "R29", title: "桐乡洲泉持续擦亮“中国蚕丝被名镇”金名片", source: "新浪财经转载/地方经济新闻", note: "用于补充洲泉蚕丝被产业升级、品牌化和区域产业传播。", url: "https://finance.sina.com.cn/jjxw/2024-12-29/doc-inecaqyf2593255.shtml", jump: "topic-tourism" },
+  { id: "ref-tourism-04", group: "乡村文旅、乡村特色产品与研究影响", code: "R29", title: "桐乡洲泉持续擦亮“中国蚕丝被名镇”金名片", source: "新浪财经转载/地方经济新闻", note: "用于补充洲泉蚕丝被产业升级、品牌化和区域产品传播。", url: "https://finance.sina.com.cn/jjxw/2024-12-29/doc-inecaqyf2593255.shtml", jump: "topic-tourism" },
   { id: "ref-tourism-05", group: "乡村文旅、乡村特色产品与研究影响", code: "R30", title: "过上像城市人一样的生活 从夜明村的巨变看获得感", source: "浙江在线", note: "用于补充洲泉蚕丝被家庭作坊、手工剥茧传统和产业治理的区域参照。", url: "https://cs.zjol.com.cn/zjbd/jx16506/201809/t20180907_8211820.shtml", jump: "topic-tourism" },
   { id: "ref-tourism-06", group: "乡村文旅、乡村特色产品与研究影响", code: "R31", title: "蒋文龙主编/《乡村寻根》桐乡洲泉五村：水乡复活再现“江南好”", source: "浙江大学品牌传播研究中心", note: "用于补充洲泉五村、水乡精品线、桑蚕丝织技艺展示和区域品牌传播。", url: "https://www.brand.zju.edu.cn/2024/1121/c57339a2990315/page.htm", jump: "topic-tourism" },
   { id: "ref-songyun-05", group: "新增学术论文", code: "R32", title: "“宋韵文化”的构成与核心", source: "沈松勤，《浙江社会科学》2023年第1期", note: "补强宋韵文化的核心精神、经世取向和文化结构，不再只停留在审美风格。", url: "https://rwxy.hznu.edu.cn/c/2023-01-16/2799750.shtml", jump: "topic-songyun" },
@@ -2073,7 +2073,7 @@ function renderLiteratureReferenceLinks() {
 }
 
 function groupSourcesByType(items) {
-  const order = ["马鸣村信息", "桑蚕丝织非遗", "节庆民俗", "文化特派员", "美育文旅", "产业传播", "学术线索"];
+  const order = ["马鸣村信息", "桑蚕丝织非遗", "节庆民俗", "文化特派员", "美育文旅", "乡村特色产品", "学术线索"];
   const groups = {};
   order.forEach(key => groups[key] = []);
   items.forEach(item => {
@@ -2083,7 +2083,7 @@ function groupSourcesByType(items) {
     if (/蚕花水会|高杆船技/.test(item.title + item.summary)) key = "节庆民俗";
     if (/文化特派员/.test(item.title + item.summary + item.use)) key = "文化特派员";
     if (/中国丝绸博物馆|展陈|艺术乡建|美育|文旅/.test(item.title + item.summary + item.use)) key = "美育文旅";
-    if (/蚕丝被|产业|出海|品牌|电商/.test(item.title + item.summary + item.use)) key = "产业传播";
+    if (/蚕丝被|产业|出海|品牌|电商/.test(item.title + item.summary + item.use)) key = "乡村特色产品";
     if (!groups[key]) groups[key] = [];
     groups[key].push(item);
   });
