@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>80篇文献表 | 马鸣村宋韵丝绸文化</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-active="literature-table.html">
+  <header class="topbar" data-topbar></header>
+  <main>
+    <section class="page-title">
+      <div class="section">
+        <span class="kicker">文献工作表</span>
+        <h1>80篇左右文献、资料与检索清单</h1>
+        <p class="lead">本表按主题模块组织，仅收录学术论文、专著、古籍、地方志、学位论文和正式研究报告等可进入论文写作的文献类型。新闻报道、网页介绍、活动报道和博物馆资讯另放在“信息资料”页面，不混入本文献表。</p>
+        <div class="button-row">
+          <a class="btn secondary" href="literature.html">返回文献综述</a>
+          <a class="btn" href="literature-table.csv">下载CSV表格</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>文献围绕哪些对象组织</h2>
+        <p>表格覆盖宋韵文化、南宋畿辅、蚕桑丝绸、非遗民俗、地方资料、影像叙事、AIGC数字文化、文旅与产业转化八个方向。后续正式使用时，应把“待检索”“待核验”条目替换为完整引文。</p>
+      </div>
+      <div class="photo-grid">
+        <article class="photo-card">
+          <img src="assets/maming-wetland.jpg" alt="野林滩湿地" loading="lazy">
+          <div class="photo-body"><span class="tag">地方资料</span><strong>传统村落与水网空间</strong><span>对应地方志、传统村落、乡村空间和区域文化文献。</span></div>
+        </article>
+        <article class="photo-card">
+          <img src="assets/canhua-2025-parade.jpg" alt="2025蚕花巡游" loading="lazy">
+          <div class="photo-body"><span class="tag river">蚕桑丝绸</span><strong>非遗、展陈与工艺史</strong><span>对应蚕桑丝织、丝绸史、非遗保护和博物馆研究文献。</span></div>
+        </article>
+        <article class="photo-card">
+          <img src="assets/analysis-aigc.svg" alt="AIGC图像分析示意" loading="lazy">
+          <div class="photo-body"><span class="tag gold">数字传播</span><strong>影像、AIGC与文旅传播</strong><span>对应影像民族志、数字生成、文旅传播和品牌叙事文献。</span></div>
+        </article>
+      </div>
+      <div class="grid-3">
+        <div class="card"><span class="tag">文献边界</span><h3>不放新闻</h3><p>本表不收录新闻报道、网页资讯、活动报道和普通宣传资料，这些材料统一放到信息资料页。</p></div>
+        <div class="card"><span class="tag river">待核验</span><h3>需补版本和出版信息</h3><p>包括古籍版本、英文专著、地方志、规划报告和部分已知论文。</p></div>
+        <div class="card"><span class="tag gold">待检索</span><h3>后续补CNKI/万方条目</h3><p>用于继续检索和补充正式论文、学位论文、专著和研究报告。</p></div>
+      </div>
+    </section>
+
+    <section class="content-band">
+      <div class="section">
+        <div class="section-head">
+          <h2>文献表</h2>
+          <p>建议后续增加“链接/DOI/数据库/下载状态/阅读摘要/引用格式”字段，并将正式条目录入Zotero。</p>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>序号</th>
+              <th>模块</th>
+              <th>题名/资料名</th>
+              <th>作者/机构</th>
+              <th>年份</th>
+              <th>类型</th>
+              <th>用于理解</th>
+              <th>状态</th>
+            </tr>
+          </thead>
+          <tbody data-literature-table></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+  <footer class="footer" data-footer></footer>
+  <script src="site.js"></script>
+</body>
+</html>

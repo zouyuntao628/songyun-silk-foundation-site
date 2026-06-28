@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+  <title id="title">村落空间图像分析示意</title>
+  <desc id="desc">江南水网、村道、桑园和作坊构成的空间分析示意图。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e8f1eb"/><stop offset="1" stop-color="#f7ecd1"/></linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5b8f93"/><stop offset="1" stop-color="#c8e1dd"/></linearGradient>
+  </defs>
+  <rect width="960" height="600" fill="url(#bg)"/>
+  <path d="M-20 390 C150 310 246 470 404 390 C562 310 640 336 766 414 C846 464 904 442 980 402 L980 620 L-20 620Z" fill="url(#water)" opacity=".88"/>
+  <path d="M88 260 L208 184 L328 260 L328 382 L88 382Z" fill="#fffdf7" stroke="#cbbf98" stroke-width="4"/>
+  <path d="M88 260 L208 184 L328 260Z" fill="#6c3a31"/>
+  <path d="M610 228 L752 144 L884 228 L884 364 L610 364Z" fill="#fffdf7" stroke="#cbbf98" stroke-width="4"/>
+  <path d="M610 228 L752 144 L884 228Z" fill="#315d4a"/>
+  <g fill="#49735a" opacity=".88">
+    <ellipse cx="158" cy="122" rx="54" ry="22" transform="rotate(-24 158 122)"/>
+    <ellipse cx="442" cy="166" rx="64" ry="26" transform="rotate(18 442 166)"/>
+    <ellipse cx="520" cy="260" rx="48" ry="20" transform="rotate(-38 520 260)"/>
+    <ellipse cx="824" cy="102" rx="56" ry="22" transform="rotate(28 824 102)"/>
+  </g>
+  <path d="M116 454 C268 392 318 510 470 438 C610 372 694 460 856 406" fill="none" stroke="#fff9e8" stroke-width="10" stroke-linecap="round"/>
+  <g fill="#235d45" font-family="Arial, sans-serif" font-weight="700" font-size="24">
+    <text x="90" y="520">空间路径</text>
+    <text x="374" y="88">桑园</text>
+    <text x="682" y="426">作坊 / 展示</text>
+  </g>
+</svg>

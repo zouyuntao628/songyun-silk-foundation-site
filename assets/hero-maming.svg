@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="920" viewBox="0 0 1600 920" role="img" aria-labelledby="title desc">
+  <title id="title">马鸣村蚕桑丝绸研究视觉</title>
+  <desc id="desc">江南水网、桑叶、丝线、村落和影像档案构成的研究型视觉图像。</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d9ecf0"/>
+      <stop offset="0.55" stop-color="#eef3e8"/>
+      <stop offset="1" stop-color="#f7efe1"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8eb9bf"/>
+      <stop offset="0.45" stop-color="#d5e5de"/>
+      <stop offset="1" stop-color="#8ba89b"/>
+    </linearGradient>
+    <linearGradient id="silk" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff6df"/>
+      <stop offset="0.42" stop-color="#f5d588"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="20" stdDeviation="22" flood-color="#27332c" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="920" fill="url(#sky)"/>
+  <path d="M-20 658 C190 566 326 754 508 653 C701 546 858 557 1037 654 C1235 761 1398 587 1625 640 L1625 930 L-20 930 Z" fill="url(#water)" opacity="0.9"/>
+  <path d="M-40 714 C210 628 352 810 550 708 C760 600 914 625 1110 720 C1300 814 1442 694 1640 722" fill="none" stroke="#ffffff" stroke-width="7" opacity="0.72"/>
+  <path d="M-30 760 C194 688 346 838 544 752 C780 650 910 685 1118 772 C1312 852 1460 756 1640 781" fill="none" stroke="#517e80" stroke-width="3" opacity="0.3"/>
+  <g opacity="0.22">
+    <path d="M76 198 C170 146 234 154 288 220 C218 252 146 265 76 198Z" fill="#3f7a52"/>
+    <path d="M1240 142 C1324 84 1407 100 1462 178 C1376 218 1304 217 1240 142Z" fill="#3f7a52"/>
+    <path d="M1112 306 C1184 258 1254 269 1300 338 C1224 368 1160 366 1112 306Z" fill="#3f7a52"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="220" y="252" width="300" height="230" rx="8" fill="#f9fbf7"/>
+    <path d="M190 256 L370 146 L552 256 Z" fill="#6b2f27"/>
+    <rect x="272" y="322" width="70" height="86" fill="#cfded9"/>
+    <rect x="383" y="322" width="76" height="160" fill="#e7eee9"/>
+    <rect x="276" y="326" width="28" height="78" fill="#334842" opacity="0.2"/>
+    <rect x="310" y="326" width="28" height="78" fill="#334842" opacity="0.2"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="980" y="300" width="340" height="246" rx="10" fill="#fbfbf4"/>
+    <path d="M948 304 L1150 180 L1356 304 Z" fill="#3e5c51"/>
+    <rect x="1042" y="372" width="92" height="102" fill="#d7e3df"/>
+    <rect x="1172" y="372" width="88" height="174" fill="#e9eee7"/>
+    <path d="M1000 546 L1320 546" stroke="#b5c7bf" stroke-width="9"/>
+  </g>
+  <path d="M76 544 C270 448 348 571 493 514 C604 470 640 372 754 394 C876 418 870 544 1000 522 C1128 500 1218 404 1408 456" fill="none" stroke="url(#silk)" stroke-width="18" stroke-linecap="round" opacity="0.92"/>
+  <path d="M82 574 C278 484 365 606 510 548 C620 504 655 412 772 424 C890 437 894 570 1022 552 C1160 532 1238 442 1414 486" fill="none" stroke="#f2d184" stroke-width="4" stroke-linecap="round" opacity="0.72"/>
+  <g transform="translate(662 210)" filter="url(#shadow)">
+    <rect width="272" height="338" rx="16" fill="#ffffff"/>
+    <rect x="22" y="24" width="228" height="158" rx="10" fill="#e7f0ed"/>
+    <path d="M46 144 C95 92 137 132 174 91 C205 57 226 84 250 62 L250 182 L46 182 Z" fill="#9ab9ab"/>
+    <circle cx="88" cy="74" r="26" fill="#f2d184"/>
+    <rect x="28" y="214" width="196" height="14" rx="7" fill="#83988e"/>
+    <rect x="28" y="244" width="220" height="12" rx="6" fill="#ccd8d1"/>
+    <rect x="28" y="270" width="154" height="12" rx="6" fill="#ccd8d1"/>
+    <rect x="28" y="296" width="204" height="12" rx="6" fill="#ccd8d1"/>
+  </g>
+  <g fill="none" stroke="#426651" stroke-width="3" opacity="0.55">
+    <path d="M143 110 C202 160 222 226 214 312"/>
+    <path d="M144 110 C190 92 242 98 300 127"/>
+    <path d="M144 110 C92 151 70 198 78 252"/>
+    <path d="M1290 112 C1358 170 1380 240 1364 330"/>
+    <path d="M1290 112 C1340 90 1400 98 1470 140"/>
+  </g>
+  <g fill="#466d55" opacity="0.82">
+    <ellipse cx="300" cy="127" rx="50" ry="22" transform="rotate(24 300 127)"/>
+    <ellipse cx="78" cy="252" rx="42" ry="18" transform="rotate(-48 78 252)"/>
+    <ellipse cx="1470" cy="140" rx="54" ry="22" transform="rotate(24 1470 140)"/>
+    <ellipse cx="1364" cy="330" rx="48" ry="20" transform="rotate(-42 1364 330)"/>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+  <title id="title">蚕丝被工艺图像分析示意</title>
+  <desc id="desc">手部动作、蚕丝、被胎和工艺流程构成的分析示意图。</desc>
+  <rect width="960" height="600" fill="#f4f0e5"/>
+  <rect x="90" y="350" width="780" height="86" rx="18" fill="#fffdf7" stroke="#d5c99f" stroke-width="4"/>
+  <path d="M134 386 C252 330 342 420 450 366 C560 310 658 424 824 354" fill="none" stroke="#edd08a" stroke-width="13" stroke-linecap="round"/>
+  <path d="M132 410 C250 360 342 442 454 394 C566 346 662 448 828 382" fill="none" stroke="#fff8de" stroke-width="9" stroke-linecap="round"/>
+  <g fill="#c39b7a">
+    <path d="M222 214 C160 238 126 306 154 346 C176 376 234 360 274 314 C318 262 284 190 222 214Z"/>
+    <path d="M738 214 C800 238 834 306 806 346 C784 376 726 360 686 314 C642 262 676 190 738 214Z"/>
+  </g>
+  <g fill="#fff6da" stroke="#d1b46e" stroke-width="3">
+    <ellipse cx="480" cy="238" rx="42" ry="30"/>
+    <ellipse cx="430" cy="260" rx="34" ry="24"/>
+    <ellipse cx="530" cy="262" rx="36" ry="25"/>
+  </g>
+  <g fill="#235d45" font-family="Arial, sans-serif" font-weight="700" font-size="24">
+    <text x="110" y="102">身体动作</text>
+    <text x="406" y="104">材料质感</text>
+    <text x="676" y="102">工艺信任</text>
+  </g>
+  <g stroke="#8b4a3f" stroke-width="3" fill="none" opacity=".6">
+    <path d="M194 122 L236 210"/>
+    <path d="M466 122 L480 206"/>
+    <path d="M746 122 L724 214"/>
+  </g>
+</svg>

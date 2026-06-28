@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+  <title id="title">AIGC生成图像误读分析示意</title>
+  <desc id="desc">真实田野图像与AI生成图像对照的分析示意图。</desc>
+  <rect width="960" height="600" fill="#f2f5ef"/>
+  <rect x="72" y="96" width="360" height="360" rx="12" fill="#fffdf7" stroke="#d9e0d7" stroke-width="4"/>
+  <rect x="528" y="96" width="360" height="360" rx="12" fill="#fffdf7" stroke="#d9e0d7" stroke-width="4"/>
+  <path d="M104 338 C170 304 222 374 292 328 C338 298 374 310 408 336" fill="none" stroke="#4f8587" stroke-width="12" stroke-linecap="round"/>
+  <rect x="136" y="216" width="168" height="106" fill="#f7f1df" stroke="#cdbf96" stroke-width="3"/>
+  <path d="M120 218 L220 152 L320 218Z" fill="#315d4a"/>
+  <path d="M594 340 C650 250 724 412 812 266" fill="none" stroke="#b9882f" stroke-width="12" stroke-linecap="round"/>
+  <g fill="#8b4a3f" opacity=".78">
+    <rect x="642" y="172" width="42" height="154" rx="18"/>
+    <rect x="730" y="150" width="46" height="176" rx="18"/>
+    <path d="M590 256 L828 256" stroke="#8b4a3f" stroke-width="18"/>
+  </g>
+  <g fill="#235d45" font-family="Arial, sans-serif" font-weight="800" text-anchor="middle">
+    <text x="252" y="504" font-size="25">真实田野图像</text>
+    <text x="708" y="504" font-size="25">AIGC生成图像</text>
+  </g>
+  <g fill="#8b4a3f" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle" font-size="20">
+    <text x="708" y="546">泛古风化 / 历史错置 / 劳动消失</text>
+  </g>
+</svg>

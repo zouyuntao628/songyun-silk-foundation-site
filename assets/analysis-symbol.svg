@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+  <title id="title">宋韵丝绸符号图像分析示意</title>
+  <desc id="desc">桑叶、蚕茧、丝线、水网和寝居场景构成的视觉符号示意图。</desc>
+  <rect width="960" height="600" fill="#fffdf7"/>
+  <circle cx="480" cy="300" r="198" fill="#edf3ec" stroke="#d9e0d7" stroke-width="4"/>
+  <path d="M244 338 C356 250 486 420 610 310 C704 226 776 286 836 246" fill="none" stroke="#b9882f" stroke-width="12" stroke-linecap="round"/>
+  <path d="M262 372 C368 294 490 456 626 346 C716 274 778 332 844 292" fill="none" stroke="#4f8587" stroke-width="7" stroke-linecap="round" opacity=".62"/>
+  <g fill="#49735a">
+    <ellipse cx="310" cy="196" rx="72" ry="30" transform="rotate(-28 310 196)"/>
+    <ellipse cx="682" cy="208" rx="70" ry="30" transform="rotate(26 682 208)"/>
+    <ellipse cx="500" cy="438" rx="82" ry="32" transform="rotate(-8 500 438)"/>
+  </g>
+  <g fill="#fff6dc" stroke="#c9a34d" stroke-width="4">
+    <ellipse cx="474" cy="284" rx="52" ry="36"/>
+    <ellipse cx="420" cy="314" rx="40" ry="28"/>
+    <ellipse cx="536" cy="320" rx="42" ry="29"/>
+  </g>
+  <g fill="#235d45" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">
+    <text x="480" y="80" font-size="26">视觉符号体系</text>
+    <text x="480" y="528" font-size="22">物象 / 空间 / 身体 / 仪式 / 审美 / 传播</text>
+  </g>
+</svg>
