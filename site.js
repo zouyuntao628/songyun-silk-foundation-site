@@ -27,7 +27,7 @@ const navItems = [
     href: "literature.html",
     label: "文献综述",
     children: [
-      ["literature-table.html", "80篇文献表"],
+      ["literature-table.html", "80篇以上文献表"],
       ["review-songyun-aesthetics.html", "宋韵美学"],
       ["review-local-history.html", "地方文脉"],
       ["review-sericulture-heritage.html", "桑蚕丝织非遗"],
@@ -891,7 +891,21 @@ const literatureReferences = [
   { id: "ref-tourism-03", group: "文旅传播与产业转化", code: "R28", title: "浙江丝绸文化与旅游融合发展创新路径探索", source: "SciEngine开放PDF", note: "用于补充丝绸文化与旅游融合、桑蚕丝织技艺园和展示中心研究。", url: "https://www.sciengine.com/doi/pdfView/389D6FEE72AE458F9C9C10833F272467", jump: "topic-tourism" },
   { id: "ref-tourism-04", group: "文旅传播与产业转化", code: "R29", title: "桐乡洲泉持续擦亮“中国蚕丝被名镇”金名片", source: "新浪财经转载/地方经济新闻", note: "用于补充洲泉蚕丝被产业升级、品牌化和区域产业传播。", url: "https://finance.sina.com.cn/jjxw/2024-12-29/doc-inecaqyf2593255.shtml", jump: "topic-tourism" },
   { id: "ref-tourism-05", group: "文旅传播与产业转化", code: "R30", title: "过上像城市人一样的生活 从夜明村的巨变看获得感", source: "浙江在线", note: "用于补充洲泉蚕丝被家庭作坊、手工剥茧传统和产业治理的区域参照。", url: "https://cs.zjol.com.cn/zjbd/jx16506/201809/t20180907_8211820.shtml", jump: "topic-tourism" },
-  { id: "ref-tourism-06", group: "文旅传播与产业转化", code: "R31", title: "蒋文龙主编/《乡村寻根》桐乡洲泉五村：水乡复活再现“江南好”", source: "浙江大学品牌传播研究中心", note: "用于补充洲泉五村、水乡精品线、桑蚕丝织技艺展示和区域品牌传播。", url: "https://www.brand.zju.edu.cn/2024/1121/c57339a2990315/page.htm", jump: "topic-tourism" }
+  { id: "ref-tourism-06", group: "文旅传播与产业转化", code: "R31", title: "蒋文龙主编/《乡村寻根》桐乡洲泉五村：水乡复活再现“江南好”", source: "浙江大学品牌传播研究中心", note: "用于补充洲泉五村、水乡精品线、桑蚕丝织技艺展示和区域品牌传播。", url: "https://www.brand.zju.edu.cn/2024/1121/c57339a2990315/page.htm", jump: "topic-tourism" },
+  { id: "ref-songyun-05", group: "新增学术论文", code: "R32", title: "“宋韵文化”的构成与核心", source: "沈松勤，《浙江社会科学》2023年第1期", note: "补强宋韵文化的核心精神、经世取向和文化结构，不再只停留在审美风格。", url: "https://rwxy.hznu.edu.cn/c/2023-01-16/2799750.shtml", jump: "topic-songyun" },
+  { id: "ref-songyun-06", group: "新增学术论文", code: "R33", title: "苏轼：宋韵文化的样本——以浙江为中心视点的考察", source: "肖瑞峰，《浙江社会科学》2023年第3期", note: "补强宋韵文化与浙江区域经验之间的关系。", url: "https://zjsh.cbpt.cnki.net/portal/journal/portal/client/paper/77ae8be401a613077b039fa86ca7dfa1", jump: "topic-songyun" },
+  { id: "ref-songyun-07", group: "新增学术论文", code: "R34", title: "杭州方言是宋韵文化的主要载体和历史坐标", source: "徐越，《浙江社会科学》2022年第9期", note: "补强宋韵文化的地方载体、城市记忆和区域语言线索。", url: "https://zjsh.cbpt.cnki.net/portal/journal/portal/client/paper/75ff36c424eed39bb9cfebdecc7b839b", jump: "topic-city" },
+  { id: "ref-heritage-05", group: "新增学术论文", code: "R35", title: "蚕花节叙事及其百越文化底层探究——以湖州含山为例", source: "李斯颖，《贺州学院学报》2018年第2期", note: "直接支撑含山蚕花节、蚕神信仰、杭嘉湖桑蚕民俗和地方叙事分析。", url: "https://iel.cass.cn/xrda/zzyjry/L/lsy/xslw/202503/t20250325_5860366.shtml", jump: "topic-heritage" },
+  { id: "ref-heritage-06", group: "新增学术论文", code: "R36", title: "“非遗”短视频传播策略及其文化审视", source: "齐彬，《新闻战线》2020年", note: "补强非遗短视频传播、流量逻辑和文化消费风险分析。", url: "https://paper.people.com.cn/xwzx/html/2020-04/01/content_2007009.htm", jump: "topic-heritage" },
+  { id: "ref-visual-04", group: "新增学术论文", code: "R37", title: "影像民族志：人类学知识生产过程与实践", source: "雷亮中，《西南民族大学学报（人文社科版）》2016年第11期", note: "作为影像民族志方法的正式学术论文入口，支撑田野影像和知识生产。", url: "https://xnzs.cbpt.cnki.net/portal/journal/portal/client/paper/be3ed5d7eab6626180b57183df2d480b", jump: "topic-visual" },
+  { id: "ref-visual-05", group: "新增学术论文", code: "R38", title: "“非遗”短视频传播策略及其文化审视", source: "齐彬，《新闻战线》2020年", note: "同时支撑图像看马鸣、影像档案和非遗传播页面中的短视频分析。", url: "https://paper.people.com.cn/xwzx/html/2020-04/01/content_2007009.htm", jump: "topic-visual" },
+  { id: "ref-aigc-04", group: "新增学术论文", code: "R39", title: "AIGC视域下的非遗视觉重构——从“形”的模仿到“神”的参数化提取", source: "徐贮琅、蔡青，《中国文学与艺术》2026年", note: "补强AIGC生成非遗图像时的视觉语义、文化基因和生成逻辑。", url: "https://www.fcipub.org/articleDetail/3778?periodicalId=7", jump: "topic-aigc" },
+  { id: "ref-aigc-05", group: "新增学术论文", code: "R40", title: "A review of the development and application of generative technology in digital museums", source: "Xu, Yan, Zhang et al., npj Heritage Science, 2025", note: "补强生成式技术在数字博物馆、文物展示和文化遗产数字传播中的应用综述。", url: "https://www.nature.com/articles/s40494-025-02164-1", jump: "topic-aigc" },
+  { id: "ref-tourism-07", group: "新增学术论文", code: "R41", title: "浙江丝绸文化与旅游融合发展创新路径探索", source: "张洁、梁大刚、林声伟，《丝绸》2021年第8期", note: "正式论文支撑浙江丝绸文化、旅游融合、展示中心和体验转化路径。", url: "https://www.sciengine.com/doi/pdfView/389D6FEE72AE458F9C9C10833F272467", jump: "topic-tourism" },
+  { id: "ref-tourism-08", group: "新增学术论文", code: "R42", title: "推进蚕丝被生产促进海宁蚕桑稳定", source: "《蚕桑通报》2021年第1期", note: "补强蚕丝被生产与地方蚕桑稳定、产业链延续之间的关系。", url: "https://www.cnki.com.cn/Article/CJFDTotal-CSTB202101013.htm", jump: "topic-tourism" },
+  { id: "ref-local-08", group: "新增学术论文", code: "R43", title: "特色化引导浙江省县级城市转型的路径思考——以桐乡为例", source: "公开PDF", note: "补强桐乡县域转型、特色产业、洲泉蚕丝被和诗画水乡建设背景。", url: "https://yangtze.silkroadinfo.org.cn/2018/3/30/20180330143520.pdf", jump: "topic-city" },
+  { id: "ref-silk-05", group: "新增学术著作", code: "R44", title: "中国传统桑蚕丝织技艺", source: "刘先福，广西师范大学出版社", note: "作为“中国传统桑蚕丝织技艺”的专题读物，补充非遗系统性说明。", url: "https://www.bbtpress.com/bookview/1944.html", jump: "topic-silk" },
+  { id: "ref-silk-06", group: "新增学术资料", code: "R45", title: "蚕桑丝织入“非遗”——而今保护从头越", source: "中国艺术人类学网", note: "补充中国桑蚕丝织技艺入选非遗、桐乡洲泉丝绵产业和生产性保护讨论。", url: "https://www.artanthropology.com/show.aspx?cid=27&id=338", jump: "topic-silk" }
 ];
 
 const literatureReferenceMap = literatureReferences.reduce((map, ref) => {
@@ -910,66 +924,6 @@ const literatureTable = [
     "学术论文",
     "界定宋韵文化概念、形态与当代价值",
     "待核验"
-  ],
-  [
-    2,
-    "宋韵文化",
-    "试论宋韵文化的认识维度、精神实质和当代价值",
-    "待补作者",
-    "2023",
-    "学术论文",
-    "支撑宋韵文化精神实质和当代转化表述",
-    "待核验"
-  ],
-  [
-    3,
-    "宋韵文化",
-    "宋韵文化再认识",
-    "待补作者",
-    "2023",
-    "学术论文",
-    "补充宋韵文化价值维度和理论边界",
-    "待核验"
-  ],
-  [
-    4,
-    "宋韵文化",
-    "宋代美学思想研究",
-    "待补作者",
-    "待补",
-    "专著/论文",
-    "支撑宋韵审美、含蓄、清雅和日常美学论述",
-    "待检索"
-  ],
-  [
-    5,
-    "宋韵文化",
-    "宋代生活美学研究",
-    "待补作者",
-    "待补",
-    "专著/论文",
-    "支撑寝居、器物、服饰和日常生活美学分析",
-    "待检索"
-  ],
-  [
-    6,
-    "宋韵文化",
-    "宋代服饰文化研究",
-    "待补作者",
-    "待补",
-    "专著/论文",
-    "支撑丝绸、服饰与宋韵审美关系",
-    "待检索"
-  ],
-  [
-    7,
-    "宋韵文化",
-    "宋画中的物质文化与日常生活研究",
-    "待补作者",
-    "待补",
-    "学术论文",
-    "为图像分析提供宋代视觉参照",
-    "待检索"
   ],
   [
     2,
@@ -1760,6 +1714,146 @@ const literatureTable = [
     "学术论文",
     "支撑文化特派员实践、地方服务和成果转化",
     "待检索"
+  ],
+  [
+    81,
+    "宋韵文化",
+    "“宋韵文化”的构成与核心",
+    "沈松勤",
+    "2023",
+    "学术论文",
+    "支撑宋韵文化的核心精神、经世取向和理论边界",
+    "已核验"
+  ],
+  [
+    82,
+    "宋韵文化",
+    "苏轼：宋韵文化的样本——以浙江为中心视点的考察",
+    "肖瑞峰",
+    "2023",
+    "学术论文",
+    "支撑宋韵文化与浙江区域经验、士人精神和生活美学的关系",
+    "已核验"
+  ],
+  [
+    83,
+    "南宋畿辅",
+    "杭州方言是宋韵文化的主要载体和历史坐标",
+    "徐越",
+    "2022",
+    "学术论文",
+    "支撑宋韵文化的地方载体、临安记忆和区域文化坐标",
+    "已核验"
+  ],
+  [
+    84,
+    "非遗民俗",
+    "蚕花节叙事及其百越文化底层探究——以湖州含山为例",
+    "李斯颖",
+    "2018",
+    "学术论文",
+    "支撑含山蚕花节、蚕神信仰、杭嘉湖桑蚕民俗和地方叙事",
+    "已核验"
+  ],
+  [
+    85,
+    "非遗民俗",
+    "“非遗”短视频传播策略及其文化审视",
+    "齐彬",
+    "2020",
+    "学术论文",
+    "支撑非遗短视频传播、奇观化观看和文化消费风险分析",
+    "已核验"
+  ],
+  [
+    86,
+    "影像叙事",
+    "影像民族志：人类学知识生产过程与实践",
+    "雷亮中",
+    "2016",
+    "学术论文",
+    "支撑影像民族志、田野影像和人类学知识生产",
+    "已核验"
+  ],
+  [
+    87,
+    "影像叙事",
+    "非遗纪录片的影像叙事艺术",
+    "待核验作者",
+    "2021",
+    "硕士论文",
+    "支撑非遗纪录片如何以影像组织人物、过程和文化意义",
+    "待进一步核验"
+  ],
+  [
+    88,
+    "AIGC与数字文化",
+    "AIGC视域下的非遗视觉重构——从“形”的模仿到“神”的参数化提取",
+    "徐贮琅、蔡青",
+    "2026",
+    "学术论文",
+    "支撑AIGC非遗视觉语义、文化基因和参数化生成分析",
+    "已核验"
+  ],
+  [
+    89,
+    "AIGC与数字文化",
+    "A review of the development and application of generative technology in digital museums",
+    "Jingfan Xu; Longquan Yan; Ruichao Zhang; Mingquan Zhou",
+    "2025",
+    "英文综述论文",
+    "支撑生成式技术、数字博物馆和文化遗产展示研究",
+    "已核验"
+  ],
+  [
+    90,
+    "文旅与产业转化",
+    "浙江丝绸文化与旅游融合发展创新路径探索",
+    "张洁、梁大刚、林声伟",
+    "2021",
+    "学术论文",
+    "支撑浙江丝绸文化、旅游融合、展示中心和体验设计",
+    "已核验"
+  ],
+  [
+    91,
+    "文旅与产业转化",
+    "推进蚕丝被生产促进海宁蚕桑稳定",
+    "待核验作者",
+    "2021",
+    "学术论文",
+    "支撑蚕丝被生产与地方桑蚕产业稳定之间的关系",
+    "待进一步核验"
+  ],
+  [
+    92,
+    "南宋畿辅",
+    "特色化引导浙江省县级城市转型的路径思考——以桐乡为例",
+    "待核验作者",
+    "待核验",
+    "学术论文/研究报告",
+    "支撑桐乡特色产业、洲泉蚕丝被和水乡城市转型背景",
+    "待进一步核验"
+  ],
+  [
+    93,
+    "桑蚕丝织",
+    "中国传统桑蚕丝织技艺",
+    "刘先福",
+    "2021",
+    "专题著作",
+    "补充中国传统桑蚕丝织技艺的非遗系统性说明",
+    "已核验"
+  ],
+  [
+    94,
+    "桑蚕丝织",
+    "蚕桑丝织入“非遗”——而今保护从头越",
+    "待核验作者",
+    "2009",
+    "学术资料/专题文章",
+    "补充桑蚕丝织入选非遗、桐乡洲泉生产性保护和丝绵产业线索",
+    "待进一步核验"
   ]
 ];
 
