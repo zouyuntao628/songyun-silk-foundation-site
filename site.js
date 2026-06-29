@@ -1,6 +1,7 @@
 const navItems = [
   ["index.html", "首页"],
   ["project.html", "专题导览"],
+  ["foundation.html", "前期基础"],
   ["maming.html", "认识马鸣村"],
   ["researcher.html", "研究者"],
   {
@@ -128,7 +129,7 @@ const literatureNeeds = [
   ["桑蚕丝织史与非遗保护论文", "回答桑蚕丝织如何构成生产、工艺、民俗、工具和生活用品相互连接的文化系统。", "桑蚕丝织、非遗民俗与地方记忆", "10-12篇", "高", "已有部分权威来源，需补论文"],
   ["桐乡 / 嘉兴 / 杭嘉湖地方文化论文", "补足马鸣村、桐乡、嘉兴和杭嘉湖平原的地方文献基础，避免只有宏观宋韵叙述。", "南宋临安、两浙区域与地方文脉", "6-8篇", "高", "待重点检索地方志和地方研究"],
   ["影像民族志与视觉人类学论文", "为田野影像、口述档案、空间记录、身体技艺和物件图像分析提供方法论。", "影像民族志、视觉符号与传播方法", "6-8篇", "中高", "已有方法入口，需补中文研究"],
-  ["非遗影像传播与短视频传播论文", "解释蚕花水会、高杆船技和桑蚕丝织技艺在纪录影像、短视频和展陈影像中的叙事机制。", "节庆民俗、身体技艺与共同体记忆", "5-6篇", "中高", "待补非遗传播案例论文"],
+  ["非遗影像传播与短视频传播论文", "解释蚕花水会、高杆船技和桑蚕丝织技艺在纪录影像、短视频和展陈影像中的叙事机制。", "节庆民俗、身体技艺与共同体记忆", "5-6篇", "中高", "延伸检索非遗传播案例论文"],
   ["AIGC / 数字文化遗产 / 文化真实性论文", "支撑AI生成传统文化图像时的偏差识别、真实性评价、提示词规范和误读类型分析。", "AIGC、数字文化与传统文化真实性", "6-8篇", "高", "已有英文前沿来源，需补中文论文"],
   ["乡村文旅、地方品牌与研究影响论文", "说明地方文化如何进入体验设计、品牌叙事、公共美育和研究影响链条。", "乡村文旅、乡村特色产品与研究影响", "6-8篇", "中", "已有资料线索，需补学术论文"],
   ["蚕丝被产业、寝居生活美学和品牌叙事论文", "把蚕丝被从功能寝具推进为材料信任、工艺信任、地方信任和宋韵生活美学的乡村特色产品。", "乡村文旅、乡村特色产品与研究影响", "4-6篇", "中高", "需重点补产业与品牌研究"],
@@ -2137,6 +2138,18 @@ function renderLiteratureReviewTopics() {
     </a>`).join("");
 }
 
+function publicLiteratureCell(value, columnIndex) {
+  if (columnIndex === 3 && /待补|待核验/.test(value)) return "延伸检索";
+  if (columnIndex === 4 && value === "待补") return "版本待核";
+  if (columnIndex !== 7) return value;
+  if (value === "已核验") return "核心文献";
+  if (/版本核验/.test(value)) return "古籍版本待核";
+  if (/采集/.test(value)) return "待实地采集";
+  if (/待核验|进一步核验/.test(value)) return "版本待核";
+  if (/待检索/.test(value)) return "延伸检索";
+  return value;
+}
+
 function renderLiteratureTable() {
   const node = document.querySelector("[data-literature-table]");
   if (!node) return;
@@ -2145,11 +2158,11 @@ function renderLiteratureTable() {
       <td>${row[0]}</td>
       <td>${row[1]}</td>
       <td>${row[2]}</td>
-      <td>${row[3]}</td>
-      <td>${row[4]}</td>
+      <td>${publicLiteratureCell(row[3], 3)}</td>
+      <td>${publicLiteratureCell(row[4], 4)}</td>
       <td>${row[5]}</td>
       <td>${row[6]}</td>
-      <td>${row[7]}</td>
+      <td>${publicLiteratureCell(row[7], 7)}</td>
     </tr>`).join("");
 }
 
